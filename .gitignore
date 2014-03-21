@@ -1,0 +1,22 @@
+## JetBrains PhpStorm
+.idea
+
+# SASS #
+*.sass-cache
+**/scss
+*.rb
+
+# Folder config file #
+Desktop.ini
+
+# Folder config file #
+Desktop.ini
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

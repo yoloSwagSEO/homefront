@@ -17,7 +17,10 @@
 <body>
 
 <header>
-	lorem ipsum dolor sit amet consectetur adispicing elit
+	<span class="credits"><img src="assets/images/resources/credits.png"> 100.000</span>
+	<span class="metal"><img src="assets/images/resources/metal.png"> 50.000</span>
+	<span class="deuterium"><img src="assets/images/resources/deuterium.png"> 15.000</span>
+	<span class="food"><img src="assets/images/resources/food.png"> 20.000</span>
 </header>
 
 <nav>

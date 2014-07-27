@@ -5,11 +5,8 @@
 	<title>Homefront Online</title>
 	<!-- CSS -->
 	<link href="assets/css/main.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/jquery.jscrollpane.css" rel="stylesheet" type="text/css">
 	<!-- JS -->
 	<script src="assets/js/jquery-1.11.0.min.js" type="text/javascript"></script>
-	<!--<script src="assets/js/jquery.mousewheel.js" type="text/javascript"></script>
-	<script src="assets/js/jquery.jscrollpane.min.js" type="text/javascript"></script>-->
 	<script src="assets/js/main.js" type="text/javascript"></script>
 	<!-- CUSTOM HEADER -->
 	<?php echo $this->head ?>

@@ -29,9 +29,8 @@ $(document).ready(function(){
 		});
 	});
 
-	// Dynamic content height
+	// Main content custom scrollbar
 	
-	var contentHeight = $('body').innerHeight();
-	console.log(contentHeight);
+	$('section').perfectScrollbar();
 
 });

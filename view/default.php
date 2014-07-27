@@ -40,6 +40,3 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	<input type="submit" value="Submit" class="icon add">
 </form>
 
-<br><br>
-
-xxxxx

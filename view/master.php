@@ -21,6 +21,7 @@
 		<span class="metal"><img src="assets/images/resources/metal.png"> 50.000</span>
 		<span class="deuterium"><img src="assets/images/resources/deuterium.png"> 15.000</span>
 		<span class="food"><img src="assets/images/resources/food.png"> 20.000</span>
+		<div class="fright menu"><img src="assets/images/icons/menu.png"></div>
 	</header>
 
 	<nav>
@@ -32,12 +33,26 @@
 		<a href="#" data-label="Diplomacy"><img src="assets/images/nav/diplomacy.png" class="transition"></a>
 		<a href="#" data-label="Battles"><img src="assets/images/nav/battles.png" class="transition"></a>
 		<a href="#" data-label="Galaxy Map"><img src="assets/images/nav/map.png" class="transition"></a>
-		<a href="#" data-label="Settings"><img src="assets/images/nav/config.png" class="transition"></a>
+		<!-- <a href="#" data-label="Settings"><img src="assets/images/nav/config.png" class="transition"></a> -->
 	</nav>
 
 	<section>
 		<?php echo $this->content ?>
 	</section>
+
+	<div id="slideMenu">
+		<div class="top">
+			<div class="fleft">GAME MENU</div>
+			<div class="fright"><img src="assets/images/icons/closeMenu.png"></div>
+		</div>
+		<ul>
+			<li><a href="#" class="transition">Player Info</a></li>
+			<li><a href="#" class="transition">Statistics</a></li>
+			<li><a href="#" class="transition">Preferences</a></li>
+			<li><a href="#" class="transition">Exit</a></li>
+		</ul>
+		<div class="credits">&copy; 2014, Homefront Interactive</div>
+	</div>
 
 </body>
 </html>

@@ -8,7 +8,7 @@
 /** HELPERS **/
 .fleft { float: left; }
 
-.right { float: right; }
+.fright { float: right; }
 
 .fix { clear: both; }
 
@@ -19,7 +19,7 @@
 
 html { height: 100%; }
 
-body { background: black url("../images/bg3.jpg") no-repeat; background-size: cover; color: #ffffff; font-family: Baksheesh, Helvetica, sans-serif; font-size: 14px; height: 100%; }
+body { background: black url("../images/bg.jpg") no-repeat; background-size: cover; color: #ffffff; font-family: Baksheesh, Helvetica, sans-serif; font-size: 14px; height: 100%; overflow: hidden; }
 
 /** FORM **/
 form input, form textarea { background-color: rgba(0, 0, 0, 0.5); border: 1px solid rgba(255, 255, 255, 0.5); color: #ffffff; font-family: Baksheesh, Helvetica, sans-serif; font-size: 12px; padding: 10px; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
@@ -49,6 +49,7 @@ header span.credits { color: #fcc02c; }
 header span.metal { color: #b9ecff; }
 header span.deuterium { color: #ee2200; }
 header span.food { color: #37d834; }
+header .menu { cursor: pointer; }
 
 /* NAVIGATION BAR */
 nav { background-color: rgba(0, 0, 0, 0.5); border: 2px solid rgba(255, 255, 255, 0.5); border-left: 0; border-radius: 0 10px 10px 0; padding: 10px; position: absolute; top: 50%; }
@@ -61,7 +62,19 @@ nav a .tooltip { background-color: rgba(0, 0, 0, 0.6); color: #ffffff; display: 
 nav a .tooltip:after { width: 0px; height: 0px; border-style: solid; border-width: 7.5px 10px 7.5px 0; border-color: transparent rgba(0, 0, 0, 0.6) transparent transparent; position: absolute; content: ""; top: 8px; left: -10px; }
 
 /* MAIN SECTION */
-section { background-color: rgba(0, 0, 0, 0.4); border: 2px solid rgba(255, 255, 255, 0.5); height: 500px; margin: auto; margin-top: -250px; margin-left: -480px; overflow: hidden; position: relative; top: 50%; left: 50%; width: 960px; }
+section { background-color: rgba(0, 0, 0, 0.5); border: 2px solid rgba(255, 255, 255, 0.5); box-shadow: 0 0 15px #000000; height: 550px; margin: auto; margin-top: -275px; margin-left: -480px; overflow: hidden; position: relative; top: 50%; left: 50%; width: 960px; }
+section .content { padding: 10px 20px 10px 10px; }
 section .titleBar { margin-bottom: 15px; }
 section .titleBar h1 { display: block; font-size: 32px; text-transform: uppercase; }
 section .titleBar h2 { display: block; font-size: 16px; text-transform: uppercase; }
+
+/* SLIDE MENU */
+#slideMenu { background-color: rgba(0, 0, 0, 0.8); border-left: 2px solid rgba(255, 255, 255, 0.3); box-shadow: -2px 0 15px #000000; position: absolute; right: -250px; top: 0; bottom: 0; width: 240px; z-index: 999; -webkit-transition: all 300ms ease-out; -moz-transition: all 300ms ease-out; transition: all 300ms ease-out; }
+#slideMenu.open { right: 0; }
+#slideMenu .top { font-size: 22px; margin-bottom: 20px; overflow: hidden; padding: 10px 20px; }
+#slideMenu .top img { cursor: pointer; }
+#slideMenu .top .fleft { margin-top: 2px; }
+#slideMenu ul { list-style: none; text-transform: uppercase; }
+#slideMenu ul li a { color: #ffffff; display: block; font-size: 12px; opacity: 0.7; padding: 10px 20px; text-decoration: none; }
+#slideMenu ul li a:hover { opacity: 1; padding-left: 23px; }
+#slideMenu .credits { bottom: 0; font-size: 11px; opacity: 0.5; padding: 20px; position: absolute; }

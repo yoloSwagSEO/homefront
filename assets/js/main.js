@@ -6,15 +6,22 @@
  *  @author     Brunno Pleffken Hosti <brunno.hosti@phocus.com.br>
  *  @copyright  Homefront Interactive
  *  @version    1.0.0
- *  @since      23/07/2014
  */
 
 $(document).ready(function(){
 
+	// ---------------------------------------------------
 	// Dynamic navigation top margin
+	// ---------------------------------------------------
 
 	var navMarginTop = $('nav').innerHeight() / 2 * -1;
 	$('nav').css('margin-top', navMarginTop);
+
+	// ---------------------------------------------------
+	// Main content custom scrollbar
+	// ---------------------------------------------------
+	
+	$('section').perfectScrollbar();
 
 	// Navigation menu label
 
@@ -29,8 +36,15 @@ $(document).ready(function(){
 		});
 	});
 
-	// Main content custom scrollbar
+	// ---------------------------------------------------
+	// Game menu on right (hamburguer icon)
+	// ---------------------------------------------------
 	
-	$('section').perfectScrollbar();
+	$('header .menu img').on('click', function() {
+		$('#slideMenu').toggleClass('open');
+	});
+	$('#slideMenu .top img').on('click', function() {
+		$('#slideMenu').toggleClass('open');
+	});
 
 });

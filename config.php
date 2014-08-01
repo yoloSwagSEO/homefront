@@ -17,7 +17,7 @@
 
 	$config['db_server'] = "localhost";
 	$config['db_user'] = "root";
-	$config['db_password'] = "loremipsum";
+	$config['db_password'] = "root";
 	$config['db_database'] = "homefront";
 
 ?>

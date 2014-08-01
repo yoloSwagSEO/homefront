@@ -9,6 +9,7 @@
 	#  Copyright: (c) 2014 - Homefront Interactive
 	## ---------------------------------------------------
 
+
 	define("ROOT", "http://localhost/homefront/");
 
 	class Main
@@ -26,10 +27,10 @@
 		private $head;
 		private $content;
 
-		// ---------------------------------------------------
-		// Main application constructor
-		// ---------------------------------------------------
-
+		/**
+		 * Main application constructor
+		 */
+		
 		public function __construct()
 		{
 			// Initial configuration

@@ -10,16 +10,16 @@
 
 $(document).ready(function(){
 
-	// ---------------------------------------------------
-	// Dynamic navigation top margin
-	// ---------------------------------------------------
+	/**
+	 * Dynamic navigation top margin
+	 */
 
 	var navMarginTop = $('nav').innerHeight() / 2 * -1;
 	$('nav').css('margin-top', navMarginTop);
 
-	// ---------------------------------------------------
-	// Main content custom scrollbar
-	// ---------------------------------------------------
+	/**
+	 * Main content custom scrollbar
+	 */
 	
 	$('section').perfectScrollbar();
 
@@ -36,9 +36,9 @@ $(document).ready(function(){
 		});
 	});
 
-	// ---------------------------------------------------
-	// Game menu on right (hamburguer icon)
-	// ---------------------------------------------------
+	/**
+	 * Game menu on right (hamburguer icon)
+	 */
 	
 	$('header .menu img').on('click', function() {
 		$('#slideMenu').toggleClass('open');

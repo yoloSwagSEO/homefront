@@ -8,9 +8,9 @@
 	#  Release: v1.0.0
 	#  Copyright: (c) 2014 - Homefront Interactive
 	## ---------------------------------------------------
-	
+
 	// Timezone settings
-	
+
 	date_default_timezone_set("GMT");
 
 	// Database variables

@@ -30,7 +30,7 @@
 		/**
 		 * Main application constructor
 		 */
-		
+
 		public function __construct()
 		{
 			// Initial configuration

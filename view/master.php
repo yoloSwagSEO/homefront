@@ -22,6 +22,7 @@
 		<span class="deuterium"><img src="assets/images/resources/deuterium.png"> 15.000</span>
 		<span class="food"><img src="assets/images/resources/food.png"> 20.000</span>
 		<div class="fright menu"><img src="assets/images/icons/menu.png"></div>
+		<div class="fright name">Nyberrite Alliance</div>
 	</header>
 
 	<nav>

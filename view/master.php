@@ -26,14 +26,14 @@
 	</header>
 
 	<nav>
-		<a href="#" data-label="Build"><img src="assets/images/nav/build.png" class="transition"></a>
-		<a href="#" data-label="Research"><img src="assets/images/nav/research.png" class="transition"></a>
-		<a href="#" data-label="Resources"><img src="assets/images/nav/resources.png" class="transition"></a>
-		<a href="#" data-label="Colonies"><img src="assets/images/nav/colonies.png" class="transition"></a>
-		<a href="#" data-label="Economy"><img src="assets/images/nav/economy.png" class="transition"></a>
-		<a href="#" data-label="Diplomacy"><img src="assets/images/nav/diplomacy.png" class="transition"></a>
-		<a href="#" data-label="Battles"><img src="assets/images/nav/battles.png" class="transition"></a>
-		<a href="#" data-label="Galaxy Map"><img src="assets/images/nav/map.png" class="transition"></a>
+		<a href="<?php echo Router::URL("build") ?>" data-label="Build"><img src="assets/images/nav/build.png" class="transition"></a>
+		<a href="<?php echo Router::URL("research") ?>" data-label="Research"><img src="assets/images/nav/research.png" class="transition"></a>
+		<a href="<?php echo Router::URL("resources") ?>" data-label="Resources"><img src="assets/images/nav/resources.png" class="transition"></a>
+		<a href="<?php echo Router::URL("colonies") ?>" data-label="Colonies"><img src="assets/images/nav/colonies.png" class="transition"></a>
+		<a href="<?php echo Router::URL("economy") ?>" data-label="Economy"><img src="assets/images/nav/economy.png" class="transition"></a>
+		<a href="<?php echo Router::URL("diplomacy") ?>" data-label="Diplomacy"><img src="assets/images/nav/diplomacy.png" class="transition"></a>
+		<a href="<?php echo Router::URL("battles") ?>" data-label="Battles"><img src="assets/images/nav/battles.png" class="transition"></a>
+		<a href="<?php echo Router::URL("map") ?>" data-label="Galaxy Map"><img src="assets/images/nav/map.png" class="transition"></a>
 		<!-- <a href="#" data-label="Settings"><img src="assets/images/nav/config.png" class="transition"></a> -->
 	</nav>
 

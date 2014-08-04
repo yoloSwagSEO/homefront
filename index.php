@@ -21,7 +21,9 @@
 		protected $Session;
 
 		public $info = array(
-			'module'	=> ''
+			'module'	=> '',
+			'action'	=> '',
+			'id'		=> 0
 		);
 
 		private $head;
@@ -37,21 +39,42 @@
 
 			require_once("config.php");
 			require_once("kernel/c.core.php");
+			require_once("kernel/c.router.php");
 
-			// Are we viewing an specific page?
+			// Get controller
 
 			if(Core::Request("p")) {
-				$this->info['module'] = Core::Request("p");
+				$this->info['controller'] = Core::Request("p");
 			}
 			else {
-				$this->info['module'] = "default";
+				$this->info['controller'] = "default";
+			}
+			
+			// Get action
+			
+			if(Core::Request("action")) {
+				$this->info['action'] = Core::Request("action");
+			}
+			
+			// Get ID
+			
+			if(Core::Request("id")) {
+				$this->info['id'] = Core::Request("id");
 			}
 
 			// Load section controller/view into $this->content
 
 			ob_start();
-			require_once("controller/" . $this->info['module'] . ".php");
-			require_once("view/" . $this->info['module'] . ".php");
+			
+			if($this->info['action'] == "") {
+				require_once("controller/" . $this->info['controller'] . ".php");
+				require_once("view/" . $this->info['controller'] . ".php");
+			}
+			else {
+				require_once("controller/" . $this->info['controller'] . "." . $this->info['action'] . ".php");
+				require_once("view/" . $this->info['controller'] . "." . $this->info['action'] . ".php");
+			}
+			
 			$this->content = ob_get_clean();
 
 			// Master page controller and template

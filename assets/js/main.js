@@ -8,7 +8,7 @@
  *  @version    1.0.0
  */
 
-$(document).ready(function(){
+$(document).ready(function() {
 
 	/**
 	 * Dynamic navigation top margin
@@ -25,13 +25,13 @@ $(document).ready(function(){
 
 	// Navigation menu label
 
-	$('nav a').each(function(){
+	$('nav a').each(function() {
 		$(this).append('<div class="tooltip">' + $(this).data('label') + '</div>');
 
-		$(this).children('img').on('mouseenter', function(){
+		$(this).children('img').on('mouseenter', function() {
 			$(this).parent().children('.tooltip').fadeIn();
 		});
-		$(this).children('img').on('mouseleave', function(){
+		$(this).children('img').on('mouseleave', function() {
 			$(this).parent().children('.tooltip').stop().fadeOut();
 		});
 	});

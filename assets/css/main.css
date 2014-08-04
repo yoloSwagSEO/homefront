@@ -60,8 +60,8 @@ nav a img { height: 32px; opacity: 0.6; width: 32px; }
 nav a:first-child { margin-top: 0; }
 nav a:last-child { margin-bottom: 0; }
 nav a:hover img { margin-left: 2px; margin-right: -2px; opacity: 1; }
-nav a .tooltip { background-color: rgba(0, 0, 0, 0.6); color: #ffffff; display: none; font-size: 12px; padding: 8px 10px; position: absolute; text-shadow: 1px 1px 1px #000000; text-transform: uppercase; top: 0; left: 65px; white-space: nowrap; z-index: 999; }
-nav a .tooltip:after { width: 0px; height: 0px; border-style: solid; border-width: 7.5px 10px 7.5px 0; border-color: transparent rgba(0, 0, 0, 0.6) transparent transparent; position: absolute; content: ""; top: 8px; left: -10px; }
+nav a .tooltip { background-color: rgba(255, 255, 255, 0.1); color: #ffffff; display: none; font-size: 12px; padding: 8px 10px; position: absolute; text-shadow: 1px 1px 1px #000000; text-transform: uppercase; top: 0; left: 65px; white-space: nowrap; z-index: 999; }
+nav a .tooltip:after { width: 0px; height: 0px; border-style: solid; border-width: 7.5px 10px 7.5px 0; border-color: transparent rgba(255, 255, 255, 0.1) transparent transparent; position: absolute; content: ""; top: 8px; left: -10px; }
 
 /* MAIN SECTION */
 section { background-color: rgba(0, 0, 0, 0.5); border: 2px solid rgba(255, 255, 255, 0.5); bottom: 50px; box-shadow: 0 0 15px #000000; left: 51%; line-height: 1.2em; margin-left: -480px; overflow: hidden; position: absolute; top: 80px; width: 960px; }
@@ -80,3 +80,13 @@ section .titleBar h2 { display: block; font-size: 16px; text-transform: uppercas
 #slideMenu ul li a { color: #ffffff; display: block; font-size: 12px; opacity: 0.7; padding: 10px 20px; text-decoration: none; }
 #slideMenu ul li a:hover { opacity: 1; padding-left: 23px; }
 #slideMenu .credits { bottom: 0; font-size: 11px; opacity: 0.5; padding: 20px; position: absolute; }
+
+/* GRIDS */
+.grid { width: 926px; }
+.grid .row { margin-bottom: 20px; overflow: hidden; }
+.grid .row .cell { display: inline-block; float: left; margin-right: 20px; }
+.grid .row .cell:last-child { float: right; margin: 0; }
+.grid .row.span1 .cell { width: 926px; }
+.grid .row.span2 .cell { width: 453px; }
+.grid .row.span3 .cell { width: 295px; }
+.grid .row.span4 .cell { width: 216px; }

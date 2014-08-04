@@ -200,7 +200,7 @@ nav {
 			}
 		}
 		.tooltip {
-			background-color: rgba(0, 0, 0, 0.6);
+			background-color: rgba(255, 255, 255, 0.1);
 			color: #ffffff;
 			display: none;
 			font-size: 12px;
@@ -217,7 +217,7 @@ nav {
 				height: 0px;
 				border-style: solid;
 				border-width: 7.5px 10px 7.5px 0;
-				border-color: transparent rgba(0, 0, 0, 0.6) transparent transparent;
+				border-color: transparent rgba(255, 255, 255, 0.1) transparent transparent;
 				position: absolute;
 				content: ('');
 				top: 8px;
@@ -314,5 +314,28 @@ section {
 		opacity: 0.5;
 		padding: 20px;
 		position: absolute;
+	}
+}
+
+/* GRIDS */
+
+.grid {
+	width: 926px;
+	.row {
+		margin-bottom: 20px;
+		overflow: hidden;
+		.cell {
+			display: inline-block;
+			float: left;
+			margin-right: 20px;
+			&:last-child {
+				float: right;
+				margin: 0;
+			}
+		}
+		&.span1 { .cell { width: 926px; } }
+		&.span2 { .cell { width: 453px; } }
+		&.span3 { .cell { width: 295px; } }
+		&.span4 { .cell { width: 216px; } }
 	}
 }

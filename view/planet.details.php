@@ -24,6 +24,24 @@
 							<td>4:23 Alpha</td>
 						</tr>
 					</table>
+					<table>
+						<tr>
+							<td class="caption">Metal</td>
+							<td><img src="assets/images/resources/metal-w.png" class="icon fleft"> 100</td>
+							<td class="caption">Deuterium</td>
+							<td><img src="assets/images/resources/deuterium-w.png" class="icon fleft"> 100</td>
+							<td class="caption">Industry</td>
+							<td><img src="assets/images/resources/industry-w.png" class="icon fleft"> 100</td>
+						</tr>
+						<tr>
+							<td class="caption">Food</td>
+							<td><img src="assets/images/resources/food-w.png" class="icon fleft"> 100 / 150</td>
+							<td class="caption">Electricity</td>
+							<td><img src="assets/images/resources/electricity-w.png" class="icon fleft"> 100 / 210</td>
+							<td class="caption">Research</td>
+							<td><img src="assets/images/resources/research-w.png" class="icon fleft"> 100</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 		</div>

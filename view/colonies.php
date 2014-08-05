@@ -19,7 +19,7 @@
 			<td class="caption">Hangar</td>
 		</tr>
 		<tr>
-			<td>Tellani</td>
+			<td><a href="<?php echo Router::URL("system", "view", 1) ?>">Tellani</a></td>
 			<td>1801 / 7500</td>
 			<td>92%</td>
 			<td class="tcenter">100</td>

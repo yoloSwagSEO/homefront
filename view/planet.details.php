@@ -1,7 +1,7 @@
 <div class="content">
 	
 	<div class="titleBar">
-		<h1>Tellani Prime</h1>
+		<h1>Planet: Tellani Prime</h1>
 		<h2>Type: E-Class Planet</h2>
 	</div>
 	

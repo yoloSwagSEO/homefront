@@ -71,7 +71,7 @@
 				require_once("view/" . $this->info['controller'] . ".php");
 			}
 			else {
-				require_once("controller/" . $this->info['controller'] . "." . $this->info['action'] . ".php");
+				require_once("controller/" . $this->info['controller'] . ".php");
 				require_once("view/" . $this->info['controller'] . "." . $this->info['action'] . ".php");
 			}
 			

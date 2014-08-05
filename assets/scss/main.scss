@@ -55,13 +55,23 @@ body {
 	color: #ffffff;
 	font-family: Baksheesh, Helvetica, sans-serif;
 	font-size: 14px;
+	-webkit-font-smoothing: subpixel-antialiased;
 	height: 100%;
 	overflow: hidden;
-	-webkit-font-smoothing: subpixel-antialiased;
 	-webkit-user-select: none;	/* Chrome all / Safari all */
 	-moz-user-select: none;		/* Firefox all */
 	-ms-user-select: none;		/* IE 10+ */
 	user-select: none;			/* All others */
+}
+
+.content a {
+	border-bottom: 1px dotted #dddddd;
+	color: #dddddd;
+	text-decoration: none;
+	&:hover {
+		border-bottom-color: #ffffff;
+		color: #ffffff;
+	}
 }
 
 /** FORM **/

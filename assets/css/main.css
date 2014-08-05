@@ -21,7 +21,10 @@
 
 html { height: 100%; }
 
-body { background: black url("../images/bg3.jpg") no-repeat; background-size: cover; color: #ffffff; font-family: Baksheesh, Helvetica, sans-serif; font-size: 14px; height: 100%; overflow: hidden; -webkit-font-smoothing: subpixel-antialiased; -webkit-user-select: none; /* Chrome all / Safari all */ -moz-user-select: none; /* Firefox all */ -ms-user-select: none; /* IE 10+ */ user-select: none; /* All others */ }
+body { background: black url("../images/bg3.jpg") no-repeat; background-size: cover; color: #ffffff; font-family: Baksheesh, Helvetica, sans-serif; font-size: 14px; -webkit-font-smoothing: subpixel-antialiased; height: 100%; overflow: hidden; -webkit-user-select: none; /* Chrome all / Safari all */ -moz-user-select: none; /* Firefox all */ -ms-user-select: none; /* IE 10+ */ user-select: none; /* All others */ }
+
+.content a { border-bottom: 1px dotted #dddddd; color: #dddddd; text-decoration: none; }
+.content a:hover { border-bottom-color: #ffffff; color: #ffffff; }
 
 /** FORM **/
 form input, form textarea { background-color: rgba(0, 0, 0, 0.5); border: 1px solid rgba(255, 255, 255, 0.5); color: #ffffff; font-family: Baksheesh, Helvetica, sans-serif; font-size: 13px; padding: 9px; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }

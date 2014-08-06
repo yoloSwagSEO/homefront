@@ -23,7 +23,8 @@
 
 .fleft { float: left; }
 .fright { float: right; }
-.fix { clear: both; }
+.clear { clear: both; }
+.fix { overflow: hidden; }
 .tcenter { text-align: center; }
 .transition {
 	-webkit-transition: all 300ms ease;
@@ -268,6 +269,11 @@ section {
 	width: 960px;
 	.content {
 		padding: 10px 20px 10px 10px;
+		h3 {
+			font-size: 14px;
+			margin-bottom: 8px;
+			text-transform: uppercase;
+		}
 	}
 	.titleBar {
 		line-height: normal;

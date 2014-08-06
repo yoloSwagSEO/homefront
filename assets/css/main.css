@@ -10,7 +10,9 @@
 
 .fright { float: right; }
 
-.fix { clear: both; }
+.clear { clear: both; }
+
+.fix { overflow: hidden; }
 
 .tcenter { text-align: center; }
 
@@ -73,6 +75,7 @@ nav a .tooltip:after { width: 0px; height: 0px; border-style: solid; border-widt
 /* MAIN SECTION */
 section { background-color: rgba(0, 0, 0, 0.5); border: 2px solid rgba(255, 255, 255, 0.5); bottom: 50px; box-shadow: 0 0 15px #000000; left: 51%; line-height: 1.3em; margin-left: -480px; overflow: hidden; position: absolute; top: 80px; width: 960px; }
 section .content { padding: 10px 20px 10px 10px; }
+section .content h3 { font-size: 14px; margin-bottom: 8px; text-transform: uppercase; }
 section .titleBar { line-height: normal; margin-bottom: 15px; }
 section .titleBar h1 { display: block; font-size: 32px; text-transform: uppercase; }
 section .titleBar h2 { display: block; font-size: 16px; text-transform: uppercase; }

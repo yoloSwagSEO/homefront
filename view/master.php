@@ -6,13 +6,14 @@
 	<!-- CSS -->
 	<link href="assets/css/main.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/perfect-scrollbar.min.css" rel="stylesheet" type="text/css">
-	<!-- JS -->
+	<!-- JS PLUGINS -->
 	<script src="assets/js/jquery-1.11.0.min.js" type="text/javascript"></script>
 	<script src="assets/js/perfect-scrollbar.min.js" type="text/javascript"></script>
 	<script src="assets/js/perfect-scrollbar.with-mousewheel.min.js" type="text/javascript"></script>
-	<script src="assets/js/main.js" type="text/javascript"></script>
 	<!-- CUSTOM HEADER -->
 	<?php echo $this->head ?>
+	<!-- MAIN JS FILE -->
+	<script src="assets/js/main.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -50,6 +51,7 @@
 			<li><a href="#" class="transition">Player Info</a></li>
 			<li><a href="#" class="transition">Statistics</a></li>
 			<li><a href="#" class="transition">Preferences</a></li>
+			<li><a href="#" class="transition">Help</a></li>
 			<li><a href="#" class="transition">Exit</a></li>
 		</ul>
 		<div class="credits">&copy; 2014, Homefront Interactive</div>

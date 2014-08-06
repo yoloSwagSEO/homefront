@@ -14,12 +14,12 @@
 						<tr>
 							<td class="caption">Planet Name</td>
 							<td>Tellani Prime</td>
-							<td class="caption">Class</td>
-							<td>M-Class (Terrestrial)</td>
+							<td class="caption">Environment</td>
+							<td>Good</td>
 						</tr>
 						<tr>
-							<td class="caption">Star System</td>
-							<td>Tellani System</td>
+							<td class="caption">Class</td>
+							<td>M-Class (Terrestrial)</td>
 							<td class="caption">Coordinates</td>
 							<td>4:23 Alpha</td>
 						</tr>

@@ -47,4 +47,15 @@ $(document).ready(function() {
 		$('#slideMenu').toggleClass('open');
 	});
 
+	/**
+	 * Redirect when clicking on a planet (in Star System View)
+	 */
+	
+	$('.planet').each(function() {
+		$(this).on('click', function() {
+			var planetId = $(this).data('planet-id');
+			window.location = "index.php?p=planet&action=view&id=" + planetId;
+		});
+	});
+
 });

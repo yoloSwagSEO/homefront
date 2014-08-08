@@ -50,6 +50,7 @@ table { border-collapse: collapse; border-spacing: 0; font-size: 12px; margin-bo
 table tr td { background-color: rgba(0, 0, 0, 0.4); border: 2px solid #777777; padding: 10px; }
 table tr td.caption { background: rgba(180, 180, 180, 0.3); width: 1%; white-space: nowrap; }
 table tr td img.icon { margin-right: 10px; }
+table.noBorder tr td { border: 0; }
 
 /* HEADER */
 header { background: rgba(0, 0, 0, 0.4); display: block; font-size: 0; padding: 10px 20px; position: absolute; top: 0; width: 100%; }
@@ -100,3 +101,11 @@ section .titleBar h2 { display: block; font-size: 16px; text-transform: uppercas
 .grid .row.span2 .cell { width: 453px; }
 .grid .row.span3 .cell { width: 295px; }
 .grid .row.span4 .cell { width: 216px; }
+
+/* STAR SYSTEM OVERVIEW */
+.starSystemOverview { display: table; font-size: 12px; text-transform: uppercase; width: 100%; }
+.starSystemOverview .planet { border-right: 1px solid rgba(255, 255, 255, 0.2); display: table-cell; padding: 5px 0; text-align: center; }
+.starSystemOverview .planet span { display: block; }
+.starSystemOverview .planet span.type { font-size: 10px; opacity: 0.8; }
+.starSystemOverview .planet:hover { background-color: rgba(255, 255, 255, 0.05); cursor: pointer; }
+.starSystemOverview .planet:last-child { border: 0; }

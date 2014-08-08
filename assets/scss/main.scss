@@ -157,6 +157,11 @@ table {
 			}
 		}
 	}
+	&.noBorder {
+		tr td {
+			border: 0;
+		}
+	}
 }
 
 /* HEADER */
@@ -371,5 +376,34 @@ section {
 		&.span2 { .cell { width: 453px; } }
 		&.span3 { .cell { width: 295px; } }
 		&.span4 { .cell { width: 216px; } }
+	}
+}
+
+/* STAR SYSTEM OVERVIEW */
+
+.starSystemOverview {
+	display: table;
+	font-size: 12px;
+	text-transform: uppercase;
+	width: 100%;
+	.planet {
+		border-right: 1px solid rgba(255, 255, 255, 0.2);
+		display: table-cell;
+		padding: 5px 0;
+		text-align: center;
+		span {
+			display: block;
+			&.type {
+				font-size: 10px;
+				opacity: 0.8;
+			}
+		}
+		&:hover {
+			background-color: rgba(255, 255, 255, 0.05);
+			cursor: pointer;
+		}
+		&:last-child {
+			border: 0;
+		}
 	}
 }

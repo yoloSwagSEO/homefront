@@ -10,6 +10,6 @@
 	## ---------------------------------------------------
 
 	// Load Cycle2 plugin
-	$this->head = '<script src="../assets/js/jquery.cycle2.min.js" type="text/javascript"></script>';
+	$this->head = "<script src=\"../assets/js/jquery.cycle2.min.js\" type=\"text/javascript\"></script>";
 
 ?>

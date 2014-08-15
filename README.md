@@ -4,7 +4,7 @@ Web-based space strategy (4X) game written in PHP.
 
 * Four different races (offensive, defensive, technological and neutral) and government types;
 * Nine battleships classes and several science/exploration starships;
-* Exploring and colonization capabilities: 11 different planet classes;
+* Exploration and colonization capabilities: 11 different planet classes;
 * Build starbases, shipyards and outposts;
 * Economy, budget and natural resources management;
 * Science and technology research:

@@ -58,11 +58,6 @@
 		 */
 		public function Query($query)
 		{
-			if($this->prefix != "c_")
-			{
-				$query = preg_replace("/c_/", $this->prefix, $query);
-			}
-
 			$this->query = mysql_query($query, $this->link);
 			
 			if(!$this->query) {

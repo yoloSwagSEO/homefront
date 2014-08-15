@@ -45,6 +45,17 @@
 							<td><img src="assets/images/resources/research-w.png" class="icon fleft"> 100</td>
 						</tr>
 					</table>
+
+					<h3>DEA - Dominant Economic Activities</h3>
+
+					<table>
+						<tr>
+							<td class="caption">DEA</td>
+							<td>Bioharvesting DEA, Government DEA, Military DEA</td>
+							<td class="caption">Specials</td>
+							<td>None</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 		</div>

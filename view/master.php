@@ -18,11 +18,11 @@
 <body>
 
 	<header>
-		<span class="credits"><img src="assets/images/resources/credits.png"> 100.000</span>
-		<span class="metal"><img src="assets/images/resources/metal.png"> 50.000</span>
-		<span class="deuterium"><img src="assets/images/resources/deuterium.png"> 15.000</span>
-		<span class="food"><img src="assets/images/resources/food.png"> 20.000</span>
-		<div class="fright menu"><img src="assets/images/icons/menu.png"></div>
+		<span class="credits"><img src="assets/images/resources/credits.png" alt="Credits"> 100.000</span>
+		<span class="metal"><img src="assets/images/resources/metal.png" alt="Metal"> 50.000</span>
+		<span class="deuterium"><img src="assets/images/resources/deuterium.png" alt="Deuterium"> 15.000</span>
+		<span class="food"><img src="assets/images/resources/food.png" alt="Food"> 20.000</span>
+		<div class="fright menu"><img src="assets/images/icons/menu.png" alt="Game Menu"></div>
 		<div class="fright name">Tellani Confederacy</div>
 	</header>
 
@@ -45,7 +45,7 @@
 	<div id="slideMenu">
 		<div class="top">
 			<div class="fleft">GAME MENU</div>
-			<div class="fright"><img src="assets/images/icons/closeMenu.png"></div>
+			<div class="fright"><img src="assets/images/icons/closeMenu.png" alt="Close Menu"></div>
 		</div>
 		<ul>
 			<li><a href="#" class="transition">Player Info</a></li>

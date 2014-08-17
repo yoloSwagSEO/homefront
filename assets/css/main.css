@@ -106,6 +106,6 @@ section .titleBar h2 { display: block; font-size: 16px; text-transform: uppercas
 .starSystemOverview { display: table; font-size: 12px; text-transform: uppercase; width: 100%; }
 .starSystemOverview .planet { border-right: 1px solid rgba(255, 255, 255, 0.2); display: table-cell; padding: 5px 0; text-align: center; }
 .starSystemOverview .planet span { display: block; }
-.starSystemOverview .planet span.type { font-size: 10px; opacity: 0.8; }
+.starSystemOverview .planet span.type { font-size: 10px; opacity: 0.7; }
 .starSystemOverview .planet:hover { background-color: rgba(255, 255, 255, 0.05); cursor: pointer; }
 .starSystemOverview .planet:last-child { border: 0; }

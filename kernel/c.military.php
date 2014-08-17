@@ -14,8 +14,8 @@
 		// Chances, in decimals, in which some kind of weapon can hit the enemy
 		// 1 = 100%; 0.75 = 75%; 0.5 = 50%; 0.25 = 25%; 0 = 0%
 
-		const ENERGY_WEP_HARDPOINT = 0.5;	// Energy weapons class (like disruptors and beams)
-		const DEVICE_WEP_HARDPOINT = 0.8;	// Device weapons class (like torpedoes and missiles)
+		const ENERGY_WP_HARDPOINT = 0.5;	// Energy weapons class (like disruptors and beams)
+		const DEVICE_WP_HARDPOINT = 0.8;	// Device weapons class (like torpedoes and missiles)
 
 		// Attacker and defender raw array
 		// These values are inserted by constructor
@@ -62,11 +62,11 @@
 			global $ships, $races;
 
 			// Calculate energy weapons overall power
-			$energy = ($ships[$class]['attack'] * $races[$empire_race]['attack']) * $ships[$class]['e_wep'] * ENERGY_WEP_HARDPOINT;
+			$energy = ($ships[$class]['attack'] * $races[$empire_race]['attack']) * $ships[$class]['e_wep'] * ENERGY_WP_HARDPOINT;
 			$energy = $energy * $tech_array['energy'];
 
 			// Calculate device weapons overall power
-			$device = ($ships[$class]['attack'] * $races[$empire_race]['attack']) * $ships[$class]['d_wep'] * DEVICE_WEP_HARDPOINT;
+			$device = ($ships[$class]['attack'] * $races[$empire_race]['attack']) * $ships[$class]['d_wep'] * DEVICE_WP_HARDPOINT;
 			$device = $device * $tech_array['device'];
 
 			// Build total attack power

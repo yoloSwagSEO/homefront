@@ -67,10 +67,12 @@
 				<h3>Demographic Info</h3>
 				<table>
 					<tr>
-						<td class="caption">Current Population</td>
+						<td class="caption">Current Population [ 1000 / 7500 ]</td>
 					</tr>
 					<tr>
-						<td>1100 / 7500</td>
+						<td>
+							<div class="progressBar" data-min="0" data-max="7500" data-current="1000"></div>
+						</td>
 					</tr>
 					<tr>
 						<td class="caption">Population Changes</td>

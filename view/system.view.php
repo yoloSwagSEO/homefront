@@ -49,7 +49,7 @@
 			<span class="type">Class G</span>
 			<table class="noBorder">
 				<tr>
-					<td>Unhabitable</td>
+					<td>Uninhabitable</td>
 				</tr>
 			</table>
 		</div>
@@ -59,7 +59,7 @@
 			<span class="type">Class A</span>
 			<table class="noBorder">
 				<tr>
-					<td>Unhabitable</td>
+					<td>Uninhabitable</td>
 				</tr>
 			</table>
 		</div>

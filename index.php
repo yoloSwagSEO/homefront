@@ -68,7 +68,7 @@
 			
 			if($this->info['action'] == "") {
 				require_once("controller/" . $this->info['controller'] . ".php");
-				require_once("view/" . $this->info['controller'] . ".php");
+				require_once("view/" . $this->info['controller'] . ".index.php");
 			}
 			else {
 				require_once("controller/" . $this->info['controller'] . ".php");

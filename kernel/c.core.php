@@ -27,7 +27,7 @@
 		}
 
 		// ---------------------------------------------------
-		// Array
+		// Prints out <PRE> tags around the output of print_r
 		// ---------------------------------------------------
 		
 		public static function PR($var)

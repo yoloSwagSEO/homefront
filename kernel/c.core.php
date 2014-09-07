@@ -27,6 +27,17 @@
 		}
 
 		// ---------------------------------------------------
+		// Array
+		// ---------------------------------------------------
+		
+		public static function PR($var)
+		{
+			echo "<pre style='font-size: 12px'>";
+			print_r($var);
+			echo "</pre>";
+		}
+
+		// ---------------------------------------------------
 		// Clean reserved characters in HTML
 		// ---------------------------------------------------
 
@@ -45,21 +56,13 @@
 		}
 
 		// ---------------------------------------------------
-		// Get defined spreadsheet (/data folder)
+		// Get defined model (/models folder)
 		// ---------------------------------------------------
 
-		public static function GetSpreadsheet($spreadsheetName)
+		public static function GetModel($name)
 		{
-			$filePath = ROOT . "data/" . $spreadsheetName . ".json";
-			if(file_exists($filePath)) {
-				$json = file_get_contents($filePath);
-				$array = json_decode($json, true);
-			}
-			else {
-				throw new Exception("The requested spreadsheet could not be found.");
-			}
-
-			return $array;
+			require("models/" . $name . ".model.php");
+			return $model;
 		}
 	}
 

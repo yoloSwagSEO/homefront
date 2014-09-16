@@ -54,7 +54,7 @@ $(document).ready(function() {
 	$('.planet').each(function() {
 		$(this).on('click', function() {
 			var planetId = $(this).data('planet-id');
-			window.location = "index.php?p=planet&action=view&id=" + planetId;
+			window.location = "index.php?p=planet&action=index&id=" + planetId;
 		});
 	});
 

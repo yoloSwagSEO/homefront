@@ -8,8 +8,8 @@
 	<link href="assets/css/perfect-scrollbar.min.css" rel="stylesheet" type="text/css">
 	<!-- JS PLUGINS -->
 	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-	<script src="assets/js/perfect-scrollbar.min.js" type="text/javascript"></script>
-	<script src="assets/js/perfect-scrollbar.with-mousewheel.min.js" type="text/javascript"></script>
+	<script src="assets/js/thirdparty/perfect-scrollbar.min.js" type="text/javascript"></script>
+	<script src="assets/js/thirdparty/perfect-scrollbar.with-mousewheel.min.js" type="text/javascript"></script>
 	<!-- CUSTOM HEADER -->
 	<?php echo $this->head ?>
 	<!-- MAIN JS FILE -->

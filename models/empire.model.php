@@ -27,10 +27,22 @@
 	// ---------------------------------------------------
 	
 	$model['races'] = array(
-		"humans"    => array("attack" => 1,   "defense" => 1),
-		"kellerons" => array("attack" => 1.5, "defense" => 0.5),
-		"hydrans"   => array("attack" => 1,   "defense" => 0.5),
-		"elorans"   => array("attack" => 0.5, "defense" => 1.5)
+		"humans" => array(
+			"attack"  => 1,
+			"defense" => 1
+		),
+		"kellerons" => array(
+			"attack"  => 1.5,
+			"defense" => 0.5
+		),
+		"hydrans" => array(
+			"attack"  => 1,
+			"defense" => 0.5
+		),
+		"elorans" => array(
+			"attack"  => 0.5,
+			"defense" => 1.5
+		)
 	);
 
 	// ---------------------------------------------------
@@ -50,7 +62,10 @@
 	// ---------------------------------------------------
 
 	$model['government'] = array(
-		"Authoritarianism", "Democracy", "Monarchy", "Anarchy"
+		"aut" => "Authoritarianism",
+		"dem" => "Democracy",
+		"mon" => "Monarchy",
+		"ana" => "Anarchy"
 	);
 
 	// ---------------------------------------------------
@@ -58,10 +73,26 @@
 	// ---------------------------------------------------
 
 	$model['government_variables'] = array(
-		array("bioharvest" => 0.5, "industry" => 1, "research" => 0),
-		array("bioharvest" => 1, "industry" => 0, "research" => 0),
-		array("bioharvest" => 1, "industry" => 0.5, "research" => 0),
-		array("bioharvest" => 1.5, "industry" => 1, "research" => 0),
+		"aut" => array(
+			"bioharvest" => 0.5,
+			"industry"   => 1,
+			"research"   => 0
+		),
+		"dem" => array(
+			"bioharvest" => 1,
+			"industry"   => 0,
+			"research"   => 0
+		),
+		"mon" => array(
+			"bioharvest" => 1,
+			"industry"   => 0.5,
+			"research"   => 0
+		),
+		"ana" => array(
+			"bioharvest" => 1.5,
+			"industry"   => 1,
+			"research"   => 0
+		),
 	);
 
 ?>

@@ -30,15 +30,60 @@
 	// ---------------------------------------------------
 	
 	$model['starship_classes'] = array(
-		"atf" => array("humans" => "Miranda", "kellerons" => "", "hydrans" => "Interceptor", "elorans" => "Lisstra"),
-		"sco" => array("humans" => "Callisto", "kellerons" => "", "hydrans" => "Detector", "elorans" => "Alderamin"),
-		"fri" => array("humans" => "Ganimedes", "kellerons" => "", "hydrans" => "Assimilator", "elorans" => "Bellaruz"),
-		"des" => array("humans" => "Ananke", "kellerons" => "", "hydrans" => "Destroyer", "elorans" => "Ithilien"),
-		"cru" => array("humans" => "Europa", "kellerons" => "", "hydrans" => "Launcher", "elorans" => "Raridra"),
-		"bcr" => array("humans" => "Oberon", "kellerons" => "", "hydrans" => "Harbinger", "elorans" => "Thennon"),
-		"war" => array("humans" => "Hyperion", "kellerons" => "", "hydrans" => "Defender", "elorans" => "Nystemna"),
-		"dre" => array("humans" => "Adrasthea", "kellerons" => "", "hydrans" => "Predator", "elorans" => "Avraneen"),
-		"edr" => array("humans" => "Prometheus", "kellerons" => "", "hydrans" => "Behemoth", "elorans" => "Norexan")
+		"atf" => array(
+			"humans" => "Miranda",
+			"kellerons" => "",
+			"hydrans" => "Interceptor",
+			"elorans" => "Lisstra"
+		),
+		"sco" => array(
+			"humans" => "Callisto",
+			"kellerons" => "",
+			"hydrans" => "Detector",
+			"elorans" => "Alderamin"
+		),
+		"fri" => array(
+			"humans" => "Ganimedes",
+			"kellerons" => "",
+			"hydrans" => "Assimilator",
+			"elorans" => "Bellaruz"
+		),
+		"des" => array(
+			"humans" => "Ananke",
+			"kellerons" => "",
+			"hydrans" => "Destroyer",
+			"elorans" => "Ithilien"
+		),
+		"cru" => array(
+			"humans" => "Europa",
+			"kellerons" => "",
+			"hydrans" => "Launcher",
+			"elorans" => "Raridra"
+		),
+		"bcr" => array(
+			"humans" => "Oberon",
+			"kellerons" => "",
+			"hydrans" => "Harbinger",
+			"elorans" => "Thennon"
+		),
+		"war" => array(
+			"humans" => "Hyperion",
+			"kellerons" => "",
+			"hydrans" => "Defender",
+			"elorans" => "Nystemna"
+		),
+		"dre" => array(
+			"humans" => "Adrasthea",
+			"kellerons" => "",
+			"hydrans" => "Predator",
+			"elorans" => "Avraneen"
+		),
+		"edr" => array(
+			"humans" => "Prometheus",
+			"kellerons" => "",
+			"hydrans" => "Behemoth",
+			"elorans" => "Norexan"
+		)
 	);
 
 ?>
